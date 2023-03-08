@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
+}
+.main{
+    display: flex;    
+}
+.main .left{
+    margin-top: 70px;
+}
+.main .left nav img{
+    width: 30%;
+}
+.main .left nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.left nav .sign{
+    width: 110px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.left nav button{
+    color: black;
+    background-color: transparent;
+    border: none;
+    margin-inline: 13px;
+    margin-top: 6px;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.main .right-img{
+    width: 70%;
+    margin-left: 50px;
+}
+.main .left .txt{
+    margin-left: 30px;
+    margin-top: 77px;
+}
+.left .txt h1{
+    font-size: 40px;
+}
+.left .txt p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: dimgray;
+}
+.left .txt .pp{
+    font-size: 15px;
+    color: #a9abb2;
+}
+.left .txt .ct{
+    font-size: 15px;
+    color: #a9abb2;
+}
+.left .txt .inp{
+    display: flex;
+    margin-top: 22px;
+}
+.left .txt input{
+    width: 380px;
+    height: 36px;
+    border: 1px solid rgb(241, 76, 16);
+    border-right: none;
+    padding: 8px;
+     
+}
+.left .txt .inp button{
+    width: 120px;
+    background-color: rgb(237, 74, 15);
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.main-features{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(36, 19, 7);
+    text-align: center;
+    color: white;
+    padding: 44px;
+    width:100%
+}
+.main-features .features img{
+    width: 33%;
+}
+.order{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.order img{
+    width: 32%;
+}
+.order .text{
+    margin-top: 84px;
+    margin-left: 20px;
+}
+.order .text h1{
+    font-size: 40px;
+    align-items: center;
+    padding: 20px;
+}
+.order .text p{
+    margin-top: 11px;
+    margin-left: 20px;
+}
+.order .text img{
+    margin-top: 22px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.order .imag{
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 500px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 44px;
+    width: 100%;
+}
+.footer .list {
+    margin-inline: 35px;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: rgb(108, 106, 106);
+    background-color: black;
+    padding: 44px;
+    width: 100%;
+}
+.footer .list1 {
+    margin-inline: 10px;
+    padding: 10px;
+}
+.footer .list img{
+    width: 53%;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+ul{
+    float: right;
+}
+ul li{
+    display: inline-block;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+}
+.media img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.footer .listt img{
+    width: 53%;
+    border-radius: 4px;
+    margin-top: 11px;
+    margin-left: -30px;
+}
